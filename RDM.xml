@@ -1,0 +1,318 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+
+		<set name="FastCast">
+			<ammo>Impatiens</ammo>
+			<head>Atrophy Chapeau +1</head>
+			<body augment="M7428">Viti. Tabard +1</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs>Artsieq Hose</legs>
+			<neck>Voltsurge Torque</neck>
+			<waist>Witful Belt</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Jhakri Ring</ring1>
+		</set>
+		<set name="MagicAt">
+			<ammo>Ghastly Tathlum</ammo>
+			<head>Jhakri Coronal +1</head>
+			<body>Jhakri Robe +2</body>
+			<hands augment="D20976940616643">Amalric Gages +1</hands>
+			<legs>Mallquis Trews +1</legs>
+			<feet>Jhakri Pigaches +1</feet>
+			<neck>Stoicheion Medal</neck>
+			<waist>Aswang Sash</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Hecate's Earring</ear2>
+			<ring1>Jhakri Ring</ring1>
+			<ring2>Stikini Ring</ring2>
+		</set>
+		<set name="EnhanceDuration">
+			<head augment="S66933462597632">Telchine Cap</head>
+			<body augment="S75729690230784">Telchine Chas.</body>
+			<hands>Atrophy Gloves +1</hands>
+			<legs augment="S66933596815360">Telchine Braconi</legs>
+			<feet augment="S75729421402112">Telchine Pigaches</feet>
+		</set>
+		<set name="Cursna">
+			<ring1>Haoma's Ring</ring1>
+			<ring2>Haoma's Ring</ring2>
+			<!-- Cursna Cape -->
+			<back>Oretan. Cape +1</back>
+		</set>
+		<set name="CureCastTime">
+			<head augment="S66933462597632">Telchine Cap</head>
+			<legs augment="S66933596815360">Telchine Braconi</legs>
+			<feet augment="S75729421402112">Telchine Pigaches</feet>
+			<back>Pahtli Cape</back>
+		</set>
+		<set name="Cure">
+			<ear1>Aredan Earring</ear1>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Haoma's Ring</ring1>
+			<ring2>Haoma's Ring</ring2>
+			<back>Tempered Cape +1</back>
+			<head augment="S66933462597632">Telchine Cap</head>
+			<body augment="S75729690230784">Telchine Chas.</body>
+			<hands augment="S81386027941888">Telchine Gloves</hands>
+			<legs augment="S66933596815360">Telchine Braconi</legs>
+			<feet>Regal Pumps +1</feet>
+		</set>
+		<set name="Stoneskin">
+			<ear1>Earthcry Earring</ear1>
+			<waist>Siegel Sash</waist>
+		</set>
+		<set name="Idle">
+			<ammo>Ginsen</ammo>
+			<head augment="M88671560">Viti. Chapeau +1</head>
+			<body>Jhakri Robe +2</body>
+			<hands>Aya. Manopolas +1</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Voltsurge Torque</neck>
+			<waist>Kentarch Belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+		<set name="TP">
+			<ammo>Ginsen</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Ayanmo Corazza +1</body>
+			<hands augment="S19001079152663">Taeon Gloves</hands>
+			<feet augment="S81364004147268">Taeon Boots</feet>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<neck>Voltsurge Torque</neck>
+			<waist>Kentarch Belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back>Atheling Mantle</back>
+		</set>
+
+		<set name="DT">
+			<ammo>Staunch Tathlum</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Ayanmo Corazza +1</body>
+			<hands>Aya. Manopolas +1</hands>
+			<legs>Aya. Cosciales +1</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Oneiros Torque</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Ayanmo Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+
+		<set name="Fotia">
+			<ammo>Ginsen</ammo>
+			<head>Jhakri Coronal +1</head>
+			<body>Jhakri Robe +2</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<neck>Fotia gorget</neck>
+			<waist>Fotia belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Mujin Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+		</set>
+
+		<set name="EnhanceOthers">
+			<head>Lethargy Chappel</head>
+			<body>Lethargy Sayon</body>
+			<hands>Leth. Gantherots</hands>
+		</set>
+		<set name="EnhanceSkill">
+			<ammo>Impatiens</ammo>
+			<head>Atrophy Chapeau +1</head>
+			<body augment="M7428">Viti. Tabard +1</body>
+			<hands augment="M1354">Vitiation Gloves +1</hands>
+			<legs>Atrophy Tights +1</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Voltsurge Torque</neck>
+			<waist>Olympus Sash</waist>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Stikini Ring</ring1>
+			<ring2>Stikini Ring</ring2>
+			<back>Swith Cape +1</back>
+		</set>
+		<set name="Enfeebling">
+			<head augment="M88671560">Viti. Chapeau +1</head>
+			<body>Atrophy Tabard +1</body>
+			<hands>Leth. Gantherots</hands>
+			<legs augment="M88868171">Viti. Tights +1</legs>
+			<feet augment="M1357">Vitiation Boots</feet>
+			<neck>Voltsurge Torque</neck>
+			<waist>Witful Belt</waist>
+			<ear2>Enchntr. Earring +1</ear2>
+			<ring1>Stikini Ring</ring1>
+			<ring2>Stikini Ring</ring2>
+			<back>Swith Cape +1</back>
+		</set>
+		<set name="Relic">
+			<!-- Enhance Dia III and Slow II -->
+			<head augment="M88671560">Viti. Chapeau +1</head> 
+			<!-- Enhance Chainspell -->
+			<body augment="M7428">Viti. Tabard +1</body>
+			<!-- Enhance Phalanx II -->
+			<hands augment="M1354">Vitiation Gloves +1</hands>
+			<!-- Enhance Bio III and Blind II -->
+			<legs augment="M88868171">Viti. Tights +1</legs>
+			<!-- Enhance Paralyze II -->
+			<feet augment="M1357">Vitiation Boots</feet>
+		</set>
+		<set name="tae">
+
+			<hands augment="S19001079152663">Taeon Gloves</hands>
+			<feet augment="S81364004147268">Taeon Boots</feet>
+
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+		<!-- Spells Affected by Enhancing Magic Skill at time of cast -->
+		<!-- Protect, Shell, Aquaveil, Stoneskin, Enspells, Barspells, Gain-Spells, Temper -->
+		<var name="EnhanceTimeOfCast">Protect*|Shell*|Aquaveil|Stoneskin|En*|Bar*|Gain*|Temper*</var>	
+		
+		<var name="Rings">Capacity Ring|Trizek Ring|Warp Ring|Vocation Ring|Dim. Ring (Holla)|Dim. Ring (Mea)|Dim. Ring (Dem)|Facility Ring|Echad Ring</var>
+		<var name="Town">Ru'Lude Gardens|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg</var>
+
+		<var name="Set">Idle</var>
+		<var name="DefaultSet">Idle</var>
+		<var name="DualWield">false</var>
+		<var name="Buffer">===============</var>
+	</variables>
+    
+	<init>
+        <if p_subjob="DNC|NIN">
+            <setvar name="DualWield" value="true" />
+        </if>
+        <else>
+            <setvar name="DualWield" value="false" />
+        </else>
+
+        <command delay="5000">/lockstyleset 4</command>
+    </init>
+
+	<inputcommands>
+		<cmd input="/kill">
+			<setvar name="Set" value="$DefaultSet"/>
+			<addtochat color="4">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+		</cmd>
+
+        <cmd input="/tp">
+            <if advanced="$Set!=TP">
+                <setvar name="Set" value="TP" />
+                <addtochat color="4">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+            </if>
+            <else>
+                <setvar name="Set" value="$DefaultSet" />
+                <addtochat color="4">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+            </else>
+        </cmd>
+
+        <cmd input="/dt">
+            <if advanced="$Set!=DT">
+                <setvar name="Set" value="DT" />
+                <addtochat color="4">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+            </if>
+            <else>
+                <setvar name="Set" value="$DefaultSet" />
+                <addtochat color="4">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+            </else>
+        </cmd>
+
+	</inputcommands>
+	<idlegear>
+        <if eq_rring="$Rings">
+            <equip lock="true">
+                <rring>%eq_ring2</rring>
+            </equip>
+        </if>
+        <if eq_ring1="$Rings">
+            <equip lock="true">
+                <ring1>%eq_ring1</ring1>
+            </equip>
+        </if>
+		
+		<if advanced="(%t_hpp>0)&amp;(%t_hpp<5)">
+			<equip lock="true">
+				<back>Aptitude Mantle +1</back>
+			</equip>
+		</if>
+
+		<equip set="$Set" />
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+		<!-- Equip the Fast Cast set first -->
+		<equip set="FastCast" />
+
+		<!-- Overwrite the gear based on certain magical spells -->
+		<if ad_skill="enhancingmagic">
+			<equip set="EnhanceSkill" />
+
+			<if ad_name="Stoneskin">
+				<equip set="Stoneskin"/>
+			</if>		
+		</if>
+		<elseif advanced="%ad_name=Cure*">
+			<equip set="CureCastTime"/>
+		</elseif>
+
+	</premagic>
+	<midmagic>
+		<if ad_name="Cursna">
+			<equip set="Cursna" />
+		</if>
+		<elseif ad_skill="healingmagic">
+			<equip set="Cure" />
+		</elseif>
+		<elseif ad_skill="enhancingmagic">
+			<if ad_name="($EnhanceTimeOfCast)">
+				<equip set="EnhanceSkill" />
+			</if>
+			<else>
+				<equip set="EnhanceDuration" />
+			</else>
+		</elseif>
+		<elseif ad_skill="enfeeblingmagic">
+			<equip set="Enfeebling" />
+		</elseif>
+		<else>
+			<equip set="MagicAt" />
+
+			<if ad_element="dark">
+				<equip>
+					<head>Pixie Hairpin +1</head>
+				</equip>
+			</if>
+		</else>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+		<equip set="Fotia"/>
+
+		<if ad_name="Chant du Cygne">
+			<equip>
+				<ring2>Ramuh Ring +1</ring2>
+			</equip>
+		</if>
+	</weaponskill>
+</ashitacast>
