@@ -1,0 +1,361 @@
+<ashitacast>
+    <settings>
+        <buffupdate>true</buffupdate>
+        <statusupdate>true</statusupdate>
+        <hpupdate>false</hpupdate>
+        <autoupdate>true</autoupdate>
+    </settings>
+    <sets>
+        <set name="Reward">
+            <ammo>Pet Food Theta</ammo>
+            <body augment="M1377">An. Jackcoat +1</body>
+            <legs augment="M3336">Ankusa Trousers +1</legs>
+            <feet augment="M1379">Ankusa Gaiters +1</feet>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+
+        <set name="ReadyMod">
+            <sub>Charmer's merlin</sub>
+            <hands>Nukumi Manoplas +1</hands>
+            <legs augment="S328278352">Desultor Tassets</legs>
+        </set>
+
+        <set name="PetAcc">
+            <head augment="D3951697204099">Emicho Coronet +1</head>
+            <body>Tali'ah Manteel +2</body>
+            <hands>Tali'ah Gages +1</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet>Tali'ah Crackows +1</feet>
+            <neck>Oneiros Torque</neck>
+            <waist>Klouskap Sash</waist>
+            <ear1>Handler's Earring +1</ear1>
+            <ear2>Handler's Earring</ear2>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Tali'ah Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+
+        <set name="PDT">
+            <head augment="S17700775530521110">Anwig Salade</head>
+            <body augment="S26869859856491">Acro Surcoat</body>
+            <hands augment="S18073780527210">Acro Gauntlets</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet augment="S481715001451">Acro Leggings</feet>
+            <neck>Oneiros Torque</neck>
+            <waist>Klouskap Sash</waist>
+            <ear1>Handler's Earring +1</ear1>
+            <ear2>Handler's Earring</ear2>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Tali'ah Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+        <set name="DT">
+            <head>Jumalik Helm</head>
+            <body augment="S135895041">Jumalik Mail</body>
+            <hands>Meghanada Gloves</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet>Meg. Jambeaux</feet>
+            <neck>Oneiros Torque</neck>
+            <waist>Klouskap Sash</waist>
+            <ear1>Handler's Earring +1</ear1>
+            <ear2>Handler's Earring</ear2>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Tali'ah Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+        <set name="Cloudsplitter">
+            <head augment="S54212562334213">Jumalik Helm</head>
+            <body augment="S135895041">Jumalik Mail</body>
+            <hands>Meghanada Gloves</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet>Meg. Jambeaux</feet>
+            <neck>Oneiros Torque</neck>
+            <waist>Klouskap Sash</waist>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Moldavite Earring</ear2>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Perception Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+        <set name="Hybrid">
+            <ammo>Demonry Core</ammo>
+            <head augment="D3951697204099">Emicho Coronet +1</head>
+            <body>Tali'ah Manteel +2</body>
+            <hands>Tali'ah Gages +1</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet>Tali'ah Crackows +1</feet>
+            <neck>Ej Necklace</neck>
+            <waist>Kentarch Belt +1</waist>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Handler's Earring +1</ear2>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Chirich Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+        <set name="PetAttack">
+            <main>Aymur</main>
+            <ammo>Demonry Core</ammo>
+            <head augment="D3951697204099">Emicho Coronet +1</head>
+            <body>Tali'ah Manteel +2</body>
+            <hands>Nukumi Manoplas +1</hands>
+            <legs>Tali'ah Sera. +2</legs>
+            <feet>Tali'ah Crackows +1</feet>
+            <waist>Klouskap Sash</waist>
+            <ring1>Thurandaut Ring</ring1>
+            <ring2>Varar Ring</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+
+        <set name="Weaponskill">
+            <ammo>Focal Orb</ammo>
+            <head>Meghanada Visor</head>
+            <body>Meghanada Cuirie</body>
+            <hands>Meghanada Gloves</hands>
+            <legs>Meg. Chausses</legs>
+            <feet>Meg. Jambeaux</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ring1>Chirich Ring</ring1>
+            <ring2>Mujin Band</ring2>
+            <back augment="S2554632316407324782">Artio's Mantle</back>
+        </set>
+        <include>
+        </include>
+    </sets>
+    <variables>
+        <var name="Rings">Capacity Ring|Trizek Ring|Warp Ring|Vocation Ring|Dim. Ring (Holla)|Dim. Ring (Mea)|Dim. Ring (Dem)|Facility Ring|Echad Ring</var>
+        <var name="Town">Ru'Lude Gardens|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg</var>
+
+        <var name="PetPhys">
+            Foot Kick|Whirl Claws|Sheep Charge|Lamb Chop|Head Butt|Wild Oats|
+            Leaf Dagger|Claw Cyclone|Razor Fang|Nimble Snap|Cyclotail|Rhino Attack|Power Attack|
+            Mandibular Bite|Big Scissors|Grapple|Spinning Top|Double Claw|Frogkick|Blockhead|
+            Brain Crush|Tail Blow|??? Needles|Needleshot|Scythe Tail|Ripper Fang|Chomp Rush|
+            Recoil Dive|Sudden Lunge|Spiral Spin|Wing Slap|Beak Lunge|Suction|Back Heel|
+            Fantod|Tortoise Stomp|Sensilla Blades|Tegmina Buffet|Swooping Frenzy|Pentapeck|
+            Sweeping Gouge|Somersault|Tickling Tendrils|Pecking Flurry|Sickle Slash
+        </var>
+        <var name="PetMagAtk">
+            Dust Cloud|Cursed Sphere|Venom|Toxic Spit|Bubble Shower|Drainkiss|
+            Silence Gas|Dark Spore|Fireball|Plague Breath|Snow Cloud|Charged Whisker|Purulent Ooze|
+            Corrosive Ooze|Aqua Breath|Stink Bomb|Nectarous Deluge|Nepenthic Plunge|Pestilent Plume|
+            Foul Waters|Acid Spray|Infected Leech|Gloom Spray
+        </var>
+        <var name="PetMagAcc">
+            Sheep Song|Scream|Dream Flower|Roar|Gloeosuccus|Palsy Pollen|
+            Soporific|Geist Wall|Toxic Spit|Numbing Noise|Spoil|Hi-Freq Field|Sandpit|Sandblast|
+            Venom Spray|Filamented Hold|Queasyshroom|Numbshroom|Spore|Shakeshroom|Infrasonics|
+            Chaotic Eye|Blaster|Intimidate|Noisome Powder|Acid Mist|TP Drainkiss|Choke Breath|
+            Jettatura|Molting Plumage|Spider Web
+        </var>
+        <var name="PetTPMoves">
+            Foot Kick|Dust Cloud|Snow Cloud|Sheep Song|Sheep Charge|Lamb Chop|
+            Head Butt|Scream|Dream Flower|Wild Oats|Leaf Dagger|Claw Cyclone|Razor Fang|Roar|
+            Gloeosuccus|Palsy Pollen|Soporific|Cursed Sphere|Somersault|Geist Wall|Numbing Noise|
+            Frogkick|Nimble Snap|Cyclotail|Spoil|Rhino Attack|Hi-Freq Field|Sandpit|Sandblast|
+            Mandibular Bite|Metallic Body|Bubble Shower|Grapple|Spinning Top|Double Claw|Spore|
+            Filamented Hold|Blockhead|Fireball|Tail Blow|Plague Breath|Brain Crush|Infrasonics|
+            Needleshot|Chaotic Eye|Blaster|Ripper Fang|Intimidate|Recoil Dive|Water Wall|
+            Sudden Lunge|Noisome Powder|Wing Slap|Beak Lunge|Suction|Drainkiss|Acid Mist|
+            TP Drainkiss|Back Heel|Jettatura|Choke Breath|Fantod|Charged Whisker|Purulent Ooze|
+            Corrosive Ooze|Tortoise Stomp|Aqua Breath|Sensilla Blades|Tegmina Buffet|Sweeping Gouge|
+            Tickling Tendrils|Pecking Flurry|Pestilent Plume|Foul Waters|Spider Web|Gloom Spray
+        </var>
+        <var name="PetBuff">
+            <!-- List of Pet Buffs and Ready moves exclusively modified by Pet TP Bonus gear. -->
+            Reward|Spur|Run Wild|Wild Carrot|Bubble Curtain|Scissor Guard|Secretion|Rage|
+            Harden Shell|Rhino Guard|Zealous Snort
+        </var>
+
+        <var name="Set">DT</var>
+        <var name="DefaultSet">DT</var>
+        <var name="Buffer">===============</var>
+    </variables>
+    <init>
+        <if p_subjob="DNC|NIN">
+            <setvar name="DualWield" value="true" />
+        </if>
+        <else>
+            <setvar name="DualWield" value="false" />
+        </else>
+    </init>
+    <inputcommands>
+
+        <!-- Prints a list of commands in game -->
+        <cmd input="/gshelp">
+            <addtochat color="4">$Buffer [Currently Supported Commands] $Buffer</addtochat>
+            <addtochat color="4">Clear current sets: /clear</addtochat>
+            <addtochat color="4">Equip Pet Defense Set: /pdt</addtochat>
+            <addtochat color="4">Equip Your Defense Set: /dt</addtochat>
+            <addtochat color="4">Ready Commands: /ready #</addtochat>
+            <addtochat color="4">Information on pet moves: /petinfo</addtochat>
+            <addtochat color="4">$Buffer [End of Supported Commands] $Buffer</addtochat>
+        </cmd>
+
+        <!-- Clears the current set -->
+        <cmd input="/clear">
+            <setvar name="Set" value="$DefaultSet"/>
+            <addtochat color="4">$Buffer [Resetting Set!] $Buffer</addtochat>
+        </cmd>
+
+        <!-- Pet Defense Set (hehe instead of physical defense set) -->
+        <cmd input="/pdt">
+            <if advanced="$Set!=PDT">
+                <setvar name="Set" value="PDT" />
+                <addtochat color="4">$Buffer [Equipping Pet Defense Set!] $Buffer</addtochat>
+            </if>
+            <else>
+                <setvar name="Set" value="$DefaultSet" />
+                <addtochat color="4">$Buffer [UnEquipping Pet Defense Set!] $Buffer</addtochat>
+            </else>
+        </cmd>
+
+        <!-- Player defense set -->
+        <cmd input="/dt">
+            <if advanced="$Set!=DT">
+                <setvar name="Set" value="DT" />
+                <addtochat color="4">$Buffer [Equipping Defense Set!] $Buffer</addtochat>
+            </if>
+            <else>
+                <setvar name="Set" value="$DefaultSet" />
+                <addtochat color="4">$Buffer [UnEquipping Defense Set!] $Buffer</addtochat>
+            </else>
+        </cmd>
+
+        <!-- Custom Ready command that just simply prings out the recast for ready, could be done in macro, but this has worked better for me -->
+        <cmd input="/ready">
+            <if advanced="(%pet_active=false)">
+                <addtochat color="4">$Buffer [You don't have a pet yet!] $Buffer</addtochat>
+                <return />
+            </if>
+
+            <if advanced="(%pet_active=true)">
+                <!-- Due to the min length on attack set best to have a delay here or else the ready set won't always equip in time -->
+                <command delay="2000">/bstpet %arg1 &lt;me&gt;</command>
+                <addtochat color="5">$Buffer [Current recast time on Ready Moves] $Buffer</addtochat>
+                <command delay="500">/recast Ready</command>
+            </if>
+
+        </cmd>
+
+        <!-- Prints out the Ready Attacks for your pet -->
+        <cmd input="/petinfo">
+            <if advanced="(%pet_active=false)">
+                <addtochat color="4">$Buffer [You don't have a pet yet!] $Buffer</addtochat>
+            </if>
+            <else>
+                <addtochat color="4">$Buffer Ready Moves for %pet_name $Buffer</addtochat>
+                <command delay="500">/bstpet</command>
+            </else>
+        </cmd>
+    </inputcommands>
+
+    <idlegear>
+        <if eq_rring="$Rings">
+            <equip lock="true">
+                <rring>%eq_ring2</rring>
+            </equip>
+        </if>
+        <if eq_ring1="$Rings">
+            <equip lock="true">
+                <ring1>%eq_ring1</ring1>
+            </equip>
+        </if>
+
+        <if eq_ammo="*Broth|*Greens|*Sap|*Soil|*Grease|Vermihumus|*Water|*Humus">
+            <equip lock="true">
+                <ammo>%eq_ammo</ammo>
+            </equip>
+        </if>
+
+        <!-- If you want to equip mantle just before kill without having to keep it on all the time, just uncomment below (my bst alrdy mastered) -->
+        <!-- <if advanced="(%t_hpp>0)&amp;(%t_hpp<5)">
+			<equip lock="true">
+				<back>Aptitude Mantle +1</back>
+			</equip>
+		</if> -->
+
+        <!-- Other ways this can be handled, but this work just fine for me -->
+        <if advanced="$DualWield=true">
+            <equip>
+                <main>Aymur</main>
+                <sub augment="D32445013635340">Arktoi</sub>
+            </equip>
+        </if>
+        <else>
+            <equip>
+                <main>Aymur</main>
+            </equip>
+        </else>
+
+        <!-- My pet takes priority over me thats why its DT set is equipped first, usually on bst I run in ready command then run out -->
+        <if advanced="(%pet_active=true)&amp;(%pet_hpp<60)">
+            <equip set="PDT" />
+        </if>
+        <elseif advanced="%p_hpp<50">
+            <equip set="DT" />
+        </elseif>
+        <elseif advanced="%p_status=engaged">
+            <equip set="Hybrid" />
+        </elseif>
+        <else>
+            <equip set="$Set"/>
+        </else>
+
+    </idlegear>
+
+    <preranged>
+    </preranged>
+    <midranged>
+    </midranged>
+    <premagic>
+    </premagic>
+    <midmagic>
+    </midmagic>
+
+    <jobability>
+        <!-- can do ad_type="Ready", did this just in case I wanted to mess around with other types  -->
+        <if advanced="%ad_type=Ready">
+            <equip set="ReadyMod"/>
+        </if>
+        <elseif ad_name="Reward">
+            <equip set="Reward" />
+        </elseif>
+        <elseif advanced="(%ad_name=Bestial Loyalty)|(%ad_name=Call Beast)">
+            <equip>
+                <hands>Ankusa gloves</hands>
+                <gearlock length="3" />
+            </equip>
+        </elseif>
+    </jobability>
+
+    <weaponskill>
+        <!-- Basic weaponskill set -->
+        <equip set="Weaponskill" />
+
+        <!-- this overwites with gear for cloudsplitter and primal rend -->
+        <if ad_name="Cloudsplitter|Primal Rend">
+            <equip set="Cloudsplitter" />
+        </if>
+
+        <!-- then equips these items -->
+        <equip>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ring2>Mujin Band</ring2>
+        </equip>
+    </weaponskill>
+
+    <petskill>
+        <if ad_name="$PetPhys">
+            <equip set="PetAttack" />
+            <!-- Min length required to get any bonus from an attack set -->
+            <gearlock length="2" />
+        </if>
+        <elseif ad_name="$PetMag">
+            <!-- Dont have pet magic set yet so leaving this here for now -->
+            <equip set="PetAttack" />
+            <gearlock length="2" />
+        </elseif>
+    </petskill>
+</ashitacast>

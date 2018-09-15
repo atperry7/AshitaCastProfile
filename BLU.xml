@@ -1,0 +1,332 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="Blueskill">
+			<ammo>Ginsen</ammo>
+			<head augment="M1418">Luh. Keffiyeh +1</head>
+			<body>Assim. Jubbah +1</body>
+			<hands>Assim. Bazu. +1</hands>
+			<legs>Assim. Shalwar +1</legs>
+			<feet augment="M1421">Luhlaza Charuqs +1</feet>
+			<neck>Ej Necklace</neck>
+			<waist>Fotia Belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Stikini Ring</ring1>
+			<ring2>Stikini Ring</ring2>
+			<back augment="S255463270510281">Rosmerta's Cape</back>
+		</set>
+		<set name="Fotia">
+			<ammo>Ginsen</ammo>
+			<head>Jhakri Coronal +1</head>
+			<body>Jhakri Robe +1</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs augment="S373924093973161209614359">Herculean Trousers</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Fotia gorget</neck>
+			<waist>Fotia belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Ramuh Ring +1</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S255463270518473">Rosmerta's Cape</back>
+		</set>
+		<set name="DT">
+			<main augment="S4409012250638326669">Colada</main>
+			<sub augment="S2024090915329421479385113">Colada</sub>
+			<ammo>Staunch Tathlum</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Ayanmo Corazza +1</body>
+			<hands>Aya. Manopolas +1</hands>
+			<legs>Aya. Cosciales +1</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Oneiros Torque</neck>
+			<waist>Flume Belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Ayanmo Ring</ring2>
+			<back>Moonbeam Cape</back>
+		</set>
+		<set name="TP">
+			<ammo>Ginsen</ammo>
+			<head>Aya. Zucchetto +1</head>
+			<body>Ayanmo Corazza +1</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet augment="S2859630426933528697">Herculean Boots</feet>
+			<neck>Lacono Neck. +1</neck>
+			<waist>Kentarch belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S255463270518473">Rosmerta's Cape</back>
+		</set>
+		<set name="Attack">
+			<ammo>Ginsen</ammo>
+			<head>Jhakri Coronal +1</head>
+			<body>Jhakri Robe +2</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs augment="S373924093973161209614359">Herculean Trousers</legs>
+			<feet>Aya. Gambieras +1</feet>
+			<neck>Lacono Neck. +1</neck>
+			<waist>Kentarch belt +1</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Ifrit Ring +1</ring1>
+			<ring2>Ifrit Ring +1</ring2>
+			<back augment="S255463270518473">Rosmerta's Cape</back>
+		</set>
+		<set name="Idle">
+			<body>Jhakri Robe +2</body>
+			<ring1>Stikini Ring +1</ring1>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+		</set>
+		<set name="Fastcast">
+			<ammo>Impatiens</ammo>
+			<head augment="S4619277952002318457">Herculean Helm</head>
+			<body augment="M1419">Luhlaza Jubbah</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet augment="M1421">Luhlaza Charuqs +1</feet>
+			<neck>Voltsurge Torque</neck>
+			<waist>Witful Belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Jhakri Ring</ring1>
+			<ring2>Levia. Ring +1</ring2>
+			<back>Swith Cape</back>
+		</set>
+		<set name="MagicAcc">
+			<head>Jhakri Coronal +1</head>
+			<body>Jhakri Robe +1</body>
+			<hands>Jhakri Cuffs +2</hands>
+			<legs>Jhakri Slops +1</legs>
+			<feet>Jhakri Pigaches +1</feet>
+			<neck>Stoicheion Medal</neck>
+			<waist>Dynamic Belt +1</waist>
+			<ear1>Gifted Earring</ear1>
+			<ear2>Hecate's Earring</ear2>
+			<ring1>Stikini Ring +1</ring1>
+			<ring2>Levia. Ring +1</ring2>
+			<back augment="S255463270518473">Rosmerta's Cape</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+		<var name="Rings">Capacity Ring|Trizek Ring|Warp Ring|Vocation Ring|Dim. Ring (Holla)|Dim. Ring (Mea)|Dim. Ring (Dem)|Facility Ring|Echad Ring</var>
+		<var name="Town">Ru'Lude Gardens|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg</var>
+
+		<!-- Physical Blue Spells -->
+		<var name="Physical">
+			Asuran Claws|Bilgestorm|Bludgeon|Body Slam|Feather Storm|Mandibular Bite|Queasyshroom|
+			Power Attack|Ram Charge|Saurian Slide|Screwdriver|Sickle Slash|Smite of Rage|
+			Spinal Cleave|Spiral Spin|Sweeping Gouge|Terror Touch|Battle Dance|Bloodrake|
+			Death Scissors|Dimensional Death|Empty Thrash|Quadrastrike|Uppercut|Tourbillion|
+			Thrashing Assault|Vertical Cleave|Whirl of Rage|Amorphic Spikes|Barbed Crescent|
+			Claw Cyclone|Disseverment|Foot Kick|Frenetic Rip|Goblin Rush|Hysteric Barrage|
+			Paralyzing Triad|Seedspray|Sinker Drill|Vanity Dive|Cannonball|Delta Thrust|
+			Glutinous Dart|Grand Slam|Quad. Continuum|Sprout Smack|Benthic Typhoon|Helldive|
+			Hydro Shot|Jet Stream|Pinecone Bomb|Wild Oats|Heavy Strike
+		</var>
+		<var name="PhysicalStr">
+			Asuran Claws|Bilgestorm|Battle Dance|Bludgeon|Bloodrake|Death Scissors|
+			Dimensional Death|Empty Thrash|Quadrastrike|Uppercut|Tourbillion|Sinker Drill|
+			Thrashing Assault|Vertical Cleave|Whirl of Rage|Saurian Slide|Sinal Cleave|
+			Paralyzing Triad
+		</var>
+		<var name="PhysicalDex">
+			Amorphic Spikes|Barbed Crescent|Claw Cyclone|Disseverment|Foot Kick|
+			Frenetic Rip|Goblin Rush|Hysteric Barrage|Seedspray|Vanity Dive
+		</var>
+		<var name="PhysicalVit">Cannonball|Delta Thrust|Glutinous Dart|Grand Slam|Quad. Continuum|Sprout Smack</var>
+		<var name="PhysicalAgi">Benthic Typhoon|Helldive|Hydro Shot|Jet Stream|Pinecone Bomb|Wild Oats|Spiral Spin</var>
+		<var name="PhysicalAcc">Heavy Strike</var>
+
+		<!-- Magical Blue Spells -->
+		<var name="Magical">
+			Acrid Stream|Anvil Lightning|Crashing Thunder|Charged Whisker|Droning Whirlwind|
+			Firespit|Foul Waters|Gates of Hades|Leafstorm|Molting Plumage|Magic Barrier|Nectarous Deluge|
+			Polar Roar|Regurgitation|Rending Deluge|Scouring Spate|Searing Tempest|Silent Storm|
+			Spectral Floe|Subduction|Sudden Lunge|Tem. Upheaval|Thermal Pulse|Thunderbolt|Uproot|
+			Water Bomb|Atra. Libations|Blood Saber|Dark Orb|Death Ray|Eyes On Me|Blazing Bound|
+			Evryone. Grudge|Palling Salvo|Tenebral Crush|Blinding Fulgor|Diffusion Ray|Ice Break|
+			Magic Hammer|Rail Cannon|Retinal Glare|Embalming Earth|Entomb|Sandspin|Vapor Spray
+		</var>
+		<var name="MagicInt">
+			Foul Waters|Gates of Hades|Leafstorm|Molting Plumage|Nectarous Deluge|Polar Roar|
+			Regurgitation|Rending Deluge|Scouring Spate|Searing Tempest|Silent Storm|Spectral Floe|
+			Subduction|Tem. Upheaval|Thermal Pulse|Thunderbolt|Uproot|Water Bomb
+		</var>
+		<var name="MagicDark">Blood Saber|Dark Orb|Death Ray|Eyes On Me|Evryone. Grudge|Palling Salvo|Tenebral Crush</var>
+		<var name="MagicLight">Blinding Fulgor|Diffusion Ray|Magic Hammer|Rail Cannon|Retinal Glare</var>
+		<var name="MagicAcc">
+			1000 Needles|Absolute Terror|Auroral Drape|Awful Eye|Blastbomb|Blank Gaze|Blistering Roar|Blitzstrahl|
+			Blood Drain|Blood Saber|Chaotic Eye|Cimicine Discharge|Cold Wave|Digest|Corrosive Ooze|
+			Demoralizing Roar|Dream Flower|Enervation|Feather Tickle|Filamented Hold|Frightful Roar|
+			Geist Wall|Hecatomb Wave|Infrasonics|Light of Penance|Lowing|Mind Blast|Mortal Ray|
+			MP Drainkiss|Osmosis|Reaving Wind|Sheep Song|Soporific|Sound Blast|Stinking Gas|
+			Venom Shell|Voracious Trunk|Yawn
+		</var>
+		<var name="MagicBreath">
+			Bad Breath|Flying Hip Press|Final Sting|Frost Breath|Heat Breath|Magnetite Cloud|
+			Poison Breath|Radiant Breath|Self Destruct|Thunder Breath|Vapor Spray|Wind Breath
+		</var>
+		<var name="BlueBuffs">
+			Barrier Tusk|Cocoon|Erratic Flutter|Harden Shell|Orcish Counterstance|
+			Plasma Charge|Pyric Bulwark|Memento Mori|Nat. Meditation|Reactor Cool|Saline Coat|
+			Feather Barrier|Refueling|Warm-Up|Zephyr Mantle|Reactor Cool|Plasma Charge|Amplification
+		</var>
+		<var name="BlueSkill">Diamondhide|Metallic Body|Magic Barrier|Occultation|Atra. Libations</var>
+		<var name="BlueHealing">Healing Breeze|Magic Fruit|Plenilune Embrace|Pollen|Restoral|Wild Carrot</var>
+		<var name="BlueStun">Frypan|Head Butt|Sudden Lunge|Tail slap|Sub-zero Smash|Sweeping Gouge</var>
+		<var name="BlueEnmity">Actinic Burst|Exuviation|Fantod|Jettatura|Temporal Shift</var>
+		<var name="Diffusion">Harden Shell|Mighty Guard|Carcharian Verve|Magic Barrier</var>
+
+		<!-- Gear Variables -->
+		<var name="Set">Idle</var>
+		<var name="Buffer">===============</var>
+		<var name="DefaultSet">Idle</var>
+		<var name="Color">57</var>
+		<var name="Buffer">===============</var>
+		<!--
+		Equipment Haste = 25%
+		Magic Haste = 43%
+		Job Ability Haste = 25%
+		 -->
+	</variables>
+	<init>
+		<if p_subjob="DNC|NIN">
+			<setvar name="DualWield" value="true" />
+		</if>
+		<else>
+			<setvar name="DualWield" value="false" />
+		</else>
+
+		<command delay="5000">/lockstyleset 2</command>
+	</init>
+	<inputcommands>
+		<cmd input="/kill">
+			<setvar name="Set" value="Idle"/>
+			<addtochat color="$Color">$Buffer Resetting All Gear! $Buffer</addtochat>
+		</cmd>
+
+		<cmd input="/dt">
+			<if advanced="$Set!=DT">
+				<setvar name="Set" value="DT" />
+				<addtochat color="$Color">$Buffer DT Set Activated! $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/acc">
+			<if advanced="$Set!=acc">
+				<setvar name="Set" value="acc" />
+				<addtochat color="$Color">$Buffer High Accuracy Set Activated! $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/tp">
+			<if advanced="$Set!=TP">
+				<setvar name="Set" value="TP" />
+				<addtochat color="$Color">$Buffer TP Set Activated! $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/fight">
+			<if advanced="$Set!=Attack">
+				<setvar name="Set" value="Attack" />
+				<addtochat color="$Color">$Buffer Attack Set Activated! $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+	</inputcommands>
+	<idlegear>
+        <if eq_rring="$Rings">
+            <equip lock="true">
+                <rring>%eq_ring2</rring>
+            </equip>
+        </if>
+        <if eq_ring1="$Rings">
+            <equip lock="true">
+                <ring1>%eq_ring1</ring1>
+            </equip>
+        </if>
+
+		<if advanced="(%t_hpp>0)&amp;(%t_hpp<5)">
+			<equip lock="true">
+				<back>Aptitude Mantle +1</back>
+			</equip>
+		</if>
+
+		<if advanced="%p_hpp<50">
+			<equip set="DT" />
+		</if>
+		<else>
+			<equip set="$Set" />
+		</else>
+
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+		<equip set="Fastcast" />
+	</premagic>
+	<midmagic>
+		<equip set="MagicAcc"/>
+
+		<if ad_type="bluemagic">
+			<if buffactive="Diffusion">
+				<equip lock="true">
+					<feet augment="M1421">Luhlaza Charuqs +1</feet>
+				</equip>
+			</if>
+
+			<if ad_name="$BlueSkill">
+				<equip set="Blueskill"/>
+			</if>
+			<elseif ad_name="$Magical">
+				<equip set="MagicAcc"/>
+			</elseif>
+			<elseif ad_name="$Physical">
+				<equip set="Attack"/>
+			</elseif>
+		</if>
+	</midmagic>
+	<jobability>
+	</jobability>
+	<weaponskill>
+		<equip set="Fotia"/>
+
+		<if ad_name="Chant du Cygne">
+			<equip>
+				<ring1>Rajas Ring</ring1>
+				<ring2>Ramuh Ring +1</ring2>
+			</equip>
+		</if>
+
+	</weaponskill>
+</ashitacast>

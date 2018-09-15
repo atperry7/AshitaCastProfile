@@ -1,0 +1,212 @@
+<ashitacast>
+	<settings>
+		<buffupdate>true</buffupdate>
+		<statusupdate>true</statusupdate>
+		<hpupdate>false</hpupdate>
+		<autoupdate>true</autoupdate>
+	</settings>
+	<sets>
+		<set name="Idle">
+			<head>Tali'ah Turban +1</head>
+			<body>Tali'ah Manteel +1</body>
+			<hands>Tali'ah Gages +1</hands>
+			<legs>Tali'ah Sera. +1</legs>
+			<feet>Tali'ah Crackows +1</feet>
+			<neck>Pup. Collar</neck>
+			<waist>Moonbow belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Thurandaut Ring</ring1>
+			<ring2>Varar Ring +1</ring2>
+			<back augment="S2680315055935618542">Visucius's Mantle</back>
+		</set>
+		<set name="PetDT">
+			<head augment="S17700775530521110">Anwig Salade</head>
+			<body augment="S26869726158946">Taeon Tabard</body>
+			<legs>Tali'ah Sera. +1</legs>
+			<feet augment="S18073498921059">Taeon Boots</feet>
+		</set>
+		<set name="DT">
+			<head augment="S17700775530521110">Anwig Salade</head>
+			<body>Tali'ah Manteel +1</body>
+			<hands>Tali'ah Gages +1</hands>
+			<legs>Tali'ah Sera. +1</legs>
+			<feet>Tali'ah Crackows +1</feet>
+			<neck>Pup. Collar</neck>
+			<waist>Klouskap sash</waist>
+			<ear1>Handler's Earring +1</ear1>
+			<ear2>Handler's Earring</ear2>
+			<ring1>Thurandaut Ring</ring1>
+			<ring2>Varar Ring +1</ring2>
+			<back augment="S2680315055935618542">Visucius's Mantle</back>
+		</set>
+		<set name="Master">
+			<head augment="S4619277952002318457">Herculean Helm</head>
+			<body>Tali'ah Manteel +1</body>
+			<hands augment="S5497587130170014361">Herculean Gloves</hands>
+			<legs augment="S373924093973161209614359">Herculean Trousers</legs>
+			<feet augment="S2859630426933528697">Herculean Boots</feet>
+			<neck>Pup. Collar</neck>
+			<waist>Moonbow Belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Chirich Ring</ring2>
+			<back augment="S2680315055935618542">Visucius's Mantle</back>
+		</set>
+
+		<set name="Hybrid">
+			<head>Tali'ah Turban +1</head>
+			<body>Tali'ah Manteel +1</body>
+			<hands augment="S5497987994426018455">Herculean Gloves</hands>
+			<legs augment="S105652044214340">Herculean Trousers</legs>
+			<feet>Tali'ah Crackows +1</feet>
+			<neck>Pup. Collar</neck>
+			<waist>Moonbow Belt</waist>
+			<ear1>Mache Earring +1</ear1>
+			<ear2>Mache Earring +1</ear2>
+			<ring1>Chirich Ring</ring1>
+			<ring2>Varar Ring +1</ring2>
+			<back augment="S2680315055935618542">Visucius's Mantle</back>
+		</set>
+		<set name="FastCast">
+			<head augment="S6203248829041028773">Herculean Helm</head>
+			<body>Foppish Tunica</body>
+			<hands>Tali'ah Gages +1</hands>
+			<legs>Tali'ah Sera. +1</legs>
+			<feet>Regal Pumps +1</feet>
+			<neck>Voltsurge Torque</neck>
+			<waist>Siegel Sash</waist>
+			<ear2>Enchntr. Earring +1</ear2>
+			<back>Swith Cape +1</back>
+		</set>
+		<include>
+		</include>
+	</sets>
+	<variables>
+		<var name="Rings">Capacity Ring|Trizek Ring|Warp Ring|Vocation Ring|Dim. Ring (Holla)|Dim. Ring (Mea)|Dim. Ring (Dem)|Facility Ring|Echad Ring</var>
+		<var name="Town">Ru'Lude Gardens|Nashmau|Tavnazian Safehold|Port*|Bastok*|Windurst*|*San d'Oria|*Jeuno|*Whitegate|*Adoulin|Selbina|Mhaura|Norg</var>
+
+		<var name="Set">Idle</var>
+		<var name="DefaultSet">Idle</var>
+		<var name="DualWield">false</var>
+		<var name="Color">57</var>
+		<var name="Buffer">===============</var>
+	</variables>
+
+	<init>
+		<if p_subjob="DNC|NIN">
+			<setvar name="DualWield" value="true" />
+		</if>
+		<else>
+			<setvar name="DualWield" value="false" />
+		</else>
+
+		<command delay="5000">/lockstyleset 3</command>
+	</init>
+
+	<inputcommands>
+		<cmd input="/kill">
+			<setvar name="Set" value="$DefaultSet"/>
+			<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+		</cmd>
+
+
+		<cmd input="/pdt">
+			<if advanced="$Set!=PetDT">
+				<setvar name="Set" value="PetDT" />
+				<addtochat color="$Color">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/dt">
+			<if advanced="$Set!=DT">
+				<setvar name="Set" value="DT" />
+				<addtochat color="$Color">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/hb">
+			<if advanced="$Set!=Hybrid">
+				<setvar name="Set" value="Hybrid" />
+				<addtochat color="$Color">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+
+		<cmd input="/master">
+			<if advanced="$Set!=Master">
+				<setvar name="Set" value="Master" />
+				<addtochat color="$Color">$Buffer [Equipping $Set Set!] $Buffer</addtochat>
+			</if>
+			<else>
+				<setvar name="Set" value="$DefaultSet" />
+				<addtochat color="$Color">$Buffer [Resetting to DefaultSet: $DefaultSet !] $Buffer</addtochat>
+			</else>
+		</cmd>
+	</inputcommands>
+	<idlegear>
+        <if eq_rring="$Rings">
+            <equip lock="true">
+                <rring>%eq_ring2</rring>
+            </equip>
+        </if>
+        <if eq_ring1="$Rings">
+            <equip lock="true">
+                <ring1>%eq_ring1</ring1>
+            </equip>
+        </if>
+
+		<if advanced="(%t_hpp>0)&amp;(%t_hpp<5)">
+			<equip lock="true">
+				<back>Aptitude Mantle +1</back>
+			</equip>
+		</if>
+
+		<equip set="$Set"/>
+
+	</idlegear>
+	<preranged>
+	</preranged>
+	<midranged>
+	</midranged>
+	<premagic>
+		<equip set="FastCast" />
+	</premagic>
+	<midmagic>
+	</midmagic>
+	<jobability>
+		<if ad_name="* Maneuver">
+			<equip>
+				<neck>Bfn. Collar +1</neck>
+				<ear2>Burana earring</ear2>
+				<hands>Foire Dastanas</hands>
+			</equip>
+		</if>
+		<elseif ad_name="Repair">
+			<equip>
+				<feet>Foire Babouches</feet>
+				<ammo>Automat. Oil +3</ammo>
+			</equip>
+		</elseif>
+	</jobability>
+	<weaponskill>
+		<equip>
+			<neck>Fotia gorget</neck>
+			<waist>Fotia belt</waist>
+			<ring1>Ifrit Ring +1</ring1>
+			<ring2>Mujin Band</ring2>
+		</equip>
+	</weaponskill>
+</ashitacast>
